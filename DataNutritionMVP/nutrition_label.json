@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAtUtc": "2026-11-11T19:17:12.4322489Z",
+  "datasetSource": "dirty_clinical_data.csv",
+  "engineTelemetry": {
+    "totalRowsProcessed": 1000000,
+    "executionTimeMs": 427,
+    "heapAllocatedBytes": 68224,
+    "heapAllocatedKB": 66.62,
+    "overallHealthScorePct": 99.05
+  },
+  "columnProfiles": [
+    {
+      "columnName": "Age (Years)",
+      "qualityGateStatus": "WARN",
+      "validityScorePct": 98.8,
+      "validCount": 988000,
+      "missingOrCorruptCount": 10000,
+      "physiologicalOutlierCount": 2000,
+      "bounds": {
+        "minAllowed": 0,
+        "maxAllowed": 120
+      },
+      "statistics": {
+        "mean": 53.5,
+        "minObserved": 18,
+        "maxObserved": 89
+      }
+    },
+    {
+      "columnName": "Heart Rate (BPM)",
+      "qualityGateStatus": "WARN",
+      "validityScorePct": 98.8,
+      "validCount": 988000,
+      "missingOrCorruptCount": 10000,
+      "physiologicalOutlierCount": 2000,
+      "bounds": {
+        "minAllowed": 30,
+        "maxAllowed": 220
+      },
+      "statistics": {
+        "mean": 82,
+        "minObserved": 55,
+        "maxObserved": 109
+      }
+    },
+    {
+      "columnName": "Systolic BP (mmHg)",
+      "qualityGateStatus": "WARN",
+      "validityScorePct": 98.8,
+      "validCount": 988000,
+      "missingOrCorruptCount": 10000,
+      "physiologicalOutlierCount": 2000,
+      "bounds": {
+        "minAllowed": 70,
+        "maxAllowed": 250
+      },
+      "statistics": {
+        "mean": 127,
+        "minObserved": 95,
+        "maxObserved": 159
+      }
+    },
+    {
+      "columnName": "Diastolic BP (mmHg)",
+      "qualityGateStatus": "PASS",
+      "validityScorePct": 99.8,
+      "validCount": 998000,
+      "missingOrCorruptCount": 0,
+      "physiologicalOutlierCount": 2000,
+      "bounds": {
+        "minAllowed": 40,
+        "maxAllowed": 150
+      },
+      "statistics": {
+        "mean": 79.52,
+        "minObserved": 60,
+        "maxObserved": 99
+      }
+    }
+  ]
+}
